@@ -25,6 +25,7 @@ My interests center around Bayesian learning and decision making with probabilis
 {Publications}
 
 *Conference:*
+- (2019) V. Perrone, H. Shen, M. Seeger, C. Archambeau, R. Jenatton. Learning Search Spaces for Bayesian Optimization: Another View of Hyperparameter Transfer Learning. /Neural Information Processing Systems 32: 12751-12761/. [http://papers.nips.cc/paper/9438-learning-search-spaces-for-bayesian-optimization-another-view-of-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) V. Perrone, R. Jenatton, M. Seeger, C. Archambeau. Scalable Hyperparameter Transfer Learning. /Neural Information Processing Systems 31: 6846-6856/. [http://papers.nips.cc/paper/7917-scalable-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) S. Rangapuram, M. Seeger, J. Gasthaus, L. Stella, Y. Wang, T. Januschowski. Deep State Space Models for Time Series Forecasting. /Neural Information Processing Systems 31: 7796-7805/. [http://papers.nips.cc/paper/8004-deep-state-space-models-for-time-series-forecasting.pdf \[pdf\]]
 - (2017) J. Boese, V. Flunkert, J. Gasthaus, T. Januschowski, D. Lange, D. Salinas, S. Schelter, M. Seeger, Y. Wang. Probabilistic Demand Forecasting at Scale. PVLDB 10(12): 1694-1705/. [http://www.vldb.org/pvldb/vol10/p1694-schelter.pdf \[pdf\]]
@@ -76,6 +77,7 @@ My interests center around Bayesian learning and decision making with probabilis
 - (2006) M. Seeger. A Taxonomy for Semi-Supervised Learning Methods. In /O. Chapelle, B. Schoelkopf, A. Zien (eds.); Semi-Supervised Learning: 15-32/ [https://infoscience.epfl.ch/record/161326/files/chapter2.pdf \[pdf\]]
 
 *Technical Reports:*
+- (2019) V. Perrone, I. Shcherbatyi, R. Jenatton, C. Archambeau, M. Seeger. Constrained Bayesian Optimization with Max-Value Entropy Search. [https://arxiv.org/abs/1910.07003 \[arxiv\]]
 - (2019) M. Seeger. Information-Theoretic Regret Bounds for Gaussian Process Optimization in the Bandit Setting. Addendum. [files/info_theo_regret_addendum.pdf \[pdf\]]
 - (2017) M. Seeger, S. Rangapuram, Y. Wang, D. Salinas, J. Gasthaus, T. Januschowski, V. Flunkert. Approximate Bayesian Inference in Linear State Space Models for Intermittent Demand Forecasting at Scale. [https://arxiv.org/abs/1709.07638 \[arxiv\]]
 - (2017) M. Seeger, A. Hetzel, Z. Dai, E. Meissner, N. Lawrence. Auto-Differentiating Linear Algebra. [https://arxiv.org/abs/1710.08717 \[arxiv\]]
