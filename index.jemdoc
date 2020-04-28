@@ -78,6 +78,9 @@ My interests center around Bayesian learning and decision making with probabilis
 - (2006) M. Seeger. A Taxonomy for Semi-Supervised Learning Methods. In /O. Chapelle, B. Schoelkopf, A. Zien (eds.); Semi-Supervised Learning: 15-32/ [https://infoscience.epfl.ch/record/161326/files/chapter2.pdf \[pdf\]]
 
 *Technical Reports:*
+- (2020) L. Tiao, A. Klein, C. Archambeau, M. Seeger. Model-based Asynchronous Hyperparameter Optimization. [https://arxiv.org/abs/2003.10865 \[arxiv\]]
+- (2020) C. Nguyen, T. Hassner, C. Archambeau, M. Seeger. LEEP: A New Measure to Evaluate Transferability of Learned Representations. [https://arxiv.org/abs/2002.12462 \[arxiv\]]
+- (2020) E. Lee, V. Perrone, C. Archambeau, M. Seeger. Cost-aware Bayesian Optimization. [https://arxiv.org/abs/2003.10870 \[arxiv\]]
 - (2019) V. Perrone, I. Shcherbatyi, R. Jenatton, C. Archambeau, M. Seeger. Constrained Bayesian Optimization with Max-Value Entropy Search. [https://arxiv.org/abs/1910.07003 \[arxiv\]]
 - (2019) M. Seeger. Information-Theoretic Regret Bounds for Gaussian Process Optimization in the Bandit Setting. Addendum. [files/info_theo_regret_addendum.pdf \[pdf\]]
 - (2017) M. Seeger, S. Rangapuram, Y. Wang, D. Salinas, J. Gasthaus, T. Januschowski, V. Flunkert. Approximate Bayesian Inference in Linear State Space Models for Intermittent Demand Forecasting at Scale. [https://arxiv.org/abs/1709.07638 \[arxiv\]]
