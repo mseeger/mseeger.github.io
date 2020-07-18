@@ -14,18 +14,19 @@ Contact: /mseeger/ \[@\] gmail \[DOT\] com, /matthis/ \[@\] amazon \[DOT\] com \
 
 ~~~
 {Short Bio}
-Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ School of Informatics], Edinburgh university, UK, in 2003 (advisor [https://homepages.inf.ed.ac.uk/ckiw/ Christopher Williams]). He was a research fellow with [https://people.eecs.berkeley.edu/~jordan/ Michael Jordan] and [https://www.stat.berkeley.edu/~bartlett/ Peter Bartlett], University of California at Berkeley, from 2003, and with [https://www.is.mpg.de/person/bs Bernhard Schoelkopf], Max Planck Institute for Intelligent Systems, Tuebingen, Germany, from 2005. He led a research group at the University of Saarbruecken, Germany, from 2008, and was assistant professor at the [https://www.epfl.ch/schools/ic/ Ecole Polytechnique Federale de Lausanne] from fall 2010. He joined Amazon as machine learning scientist in 2014.
+Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ School of Informatics], Edinburgh university, UK, in 2003 (advisor [https://homepages.inf.ed.ac.uk/ckiw/ Christopher Williams]). He was a research fellow with [https://people.eecs.berkeley.edu/~jordan/ Michael Jordan] and [https://www.stat.berkeley.edu/~bartlett/ Peter Bartlett], University of California at Berkeley, from 2003, and with [https://www.is.mpg.de/person/bs Bernhard Schoelkopf], Max Planck Institute for Intelligent Systems, Tuebingen, Germany, from 2005. He led a research group at the University of Saarbruecken, Germany, from 2008, and was assistant professor at the [https://www.epfl.ch/schools/ic/ Ecole Polytechnique Federale de Lausanne] from fall 2010. He joined Amazon as machine learning scientist in 2014. He received the [https://www.amazon.science/blog/icml-test-of-time-paper-shows-how-times-have-changed ICML Test of Time Award] in 2020.
 ~~~
 
 ~~~
 {Research Interests}
-My interests center around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes, scalable variational approximate inference algorithms, and Bayesian compressed sensing. More recently, I worked on demand forecasting and Bayesian optimization (hyperparameter tuning, AutoML).
+My interests center around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. More recently, I worked on demand forecasting and Bayesian optimization (hyperparameter tuning, AutoML).
 ~~~
 
 ~~~
 {Publications}
 
 *Conference:*
+- (2020) C. Nguyen, T. Hassner, M. Seeger, C. Archambeau. LEEP: A New Measure to Evaluate Transferability of Learned Representations. /International Conference on Machine Learning 37/. [https://arxiv.org/abs/2002.12462 \[arxiv\]]
 - (2019) V. Perrone, H. Shen, M. Seeger, C. Archambeau, R. Jenatton. Learning Search Spaces for Bayesian Optimization: Another View of Hyperparameter Transfer Learning. /Neural Information Processing Systems 32: 12751-12761/. [http://papers.nips.cc/paper/9438-learning-search-spaces-for-bayesian-optimization-another-view-of-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) V. Perrone, R. Jenatton, M. Seeger, C. Archambeau. Scalable Hyperparameter Transfer Learning. /Neural Information Processing Systems 31: 6846-6856/. [http://papers.nips.cc/paper/7917-scalable-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) S. Rangapuram, M. Seeger, J. Gasthaus, L. Stella, Y. Wang, T. Januschowski. Deep State Space Models for Time Series Forecasting. /Neural Information Processing Systems 31: 7796-7805/. [http://papers.nips.cc/paper/8004-deep-state-space-models-for-time-series-forecasting.pdf \[pdf\]]
@@ -40,7 +41,7 @@ My interests center around Bayesian learning and decision making with probabilis
 - (2011) M. Seeger, H. Nickisch. Fast Convergent Algorithms for Expectation Propagation Approximate Bayesian Inference. /Artificial Intelligence and Statistics 14/. [http://proceedings.mlr.press/v15/seeger11a/seeger11a.pdf \[pdf\]]
 - (2010) M. Seeger. Speeding up Magnetic Resonance Image Acquisition by Bayesian Multi-Slice Adaptive Compressed Sensing. /Neural Information Processing Systems 23: 1633-1641/. [https://papers.nips.cc/paper/3712-speeding-up-magnetic-resonance-image-acquisition-by-bayesian-multi-slice-adaptive-compressed-sensing \[pdf\]]
 - (2010) M. Seeger. Gaussian Covariance and Scalable Variational Inference. /International Conference on Machine Learning 27/. [https://infoscience.epfl.ch/record/161304/files/icml10_seeger.pdf \[pdf\]]
-- (2010) N. Srinivas, A. Krause, S. Kakade, M. Seeger. Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design. /International Conference on Machine Learning 27/. [https://infoscience.epfl.ch/record/161305/files/gp_bandit_final_icml10.pdf \[pdf\]]
+- (2010) N. Srinivas, A. Krause, S. Kakade, M. Seeger. Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design. /International Conference on Machine Learning 27/. [https://icml.cc/Conferences/2010/papers/422.pdf \[pdf\]] *ICML 2020 Test of Time Award*
 - (2009) M. Seeger. Sparse Linear Models: Variational Approximate Inference and Bayesian Experimental Design. /Journal of Physics: Conference Series, 197(012001)/. [https://infoscience.epfl.ch/record/161307/files/jpconf9_197_012001.pdf \[pdf\]]
 - (2009) H. Nickisch, M. Seeger. Convex Variational Bayesian Inference for Large Scale Generalized Linear Models. /International Conference on Machine Learning 26: 761-768/. [https://infoscience.epfl.ch/record/161308/files/icml09_nickisch_seeger.pdf \[pdf\]]
 - (2009) M. Seeger, H. Nickisch, R. Pohmann, B. Schoelkopf. Bayesian Experimental Design of Magnetic Resonance Imaging Sequences. /Neural Information Processing Systems 21: 1441-1448/. [https://papers.nips.cc/paper/3558-bayesian-experimental-design-of-magnetic-resonance-imaging-sequences.pdf \[pdf\]]
@@ -79,7 +80,6 @@ My interests center around Bayesian learning and decision making with probabilis
 
 *Technical Reports:*
 - (2020) L. Tiao, A. Klein, C. Archambeau, M. Seeger. Model-based Asynchronous Hyperparameter Optimization. [https://arxiv.org/abs/2003.10865 \[arxiv\]]
-- (2020) C. Nguyen, T. Hassner, C. Archambeau, M. Seeger. LEEP: A New Measure to Evaluate Transferability of Learned Representations. [https://arxiv.org/abs/2002.12462 \[arxiv\]]
 - (2020) E. Lee, V. Perrone, C. Archambeau, M. Seeger. Cost-aware Bayesian Optimization. [https://arxiv.org/abs/2003.10870 \[arxiv\]]
 - (2019) V. Perrone, I. Shcherbatyi, R. Jenatton, C. Archambeau, M. Seeger. Constrained Bayesian Optimization with Max-Value Entropy Search. [https://arxiv.org/abs/1910.07003 \[arxiv\]]
 - (2019) M. Seeger. Information-Theoretic Regret Bounds for Gaussian Process Optimization in the Bandit Setting. Addendum. [files/info_theo_regret_addendum.pdf \[pdf\]]
