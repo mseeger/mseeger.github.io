@@ -26,6 +26,7 @@ My interests center around Bayesian learning and decision making with probabilis
 {Publications}
 
 *Conference:*
+- (2020) L. Tiao, A. Klein, M. Seeger, C. Archambeau, E. Bonilla, F. Ramos. Bayesian optimization by density ratio estimation. /NeurIPS 2020 Workshop on Meta-learning/. [files/bayesian-optimization-by-density-ratio-estimation.pdf \[pdf\]]
 - (2020) C. Nguyen, T. Hassner, M. Seeger, C. Archambeau. LEEP: A New Measure to Evaluate Transferability of Learned Representations. /International Conference on Machine Learning 37/. [https://arxiv.org/abs/2002.12462 \[arxiv\]]
 - (2019) V. Perrone, H. Shen, M. Seeger, C. Archambeau, R. Jenatton. Learning Search Spaces for Bayesian Optimization: Another View of Hyperparameter Transfer Learning. /Neural Information Processing Systems 32: 12751-12761/. [http://papers.nips.cc/paper/9438-learning-search-spaces-for-bayesian-optimization-another-view-of-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) V. Perrone, R. Jenatton, M. Seeger, C. Archambeau. Scalable Hyperparameter Transfer Learning. /Neural Information Processing Systems 31: 6846-6856/. [http://papers.nips.cc/paper/7917-scalable-hyperparameter-transfer-learning.pdf \[pdf\]]
