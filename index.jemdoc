@@ -19,15 +19,18 @@ Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ 
 
 ~~~
 {Research Interests}
-My interests center around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. More recently, I worked on demand forecasting and Bayesian optimization (hyperparameter tuning, AutoML).
+My interests center around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. More recently, I worked on demand forecasting, hyperparameter tuning (Bayesian optimization) applied to deep learning (NLP), and AutoML. 
 ~~~
 
 ~~~
 {Publications}
 
 *Conference:*
+- (2021) E. Lee, D. Eriksson, V. Perrone, M. Seeger. A Nonmyopic Approach to Cost-Constrained Bayesian Optimization. /Uncertainty in Artificial Intelligence: 568-577/. [https://proceedings.mlr.press/v161/lee21a/lee21a.pdf \[pdf\]]
+- (2021) L. Tiao, A. Klein, M. Seeger, E. Bonilla, C. Archambeau, F. Ramos. BORE: Bayesian optimization by density-ratio estimation. /International Conference on Machine Learning: 10289-10300/. [http://proceedings.mlr.press/v139/tiao21a/tiao21a.pdf \[pdf\]]
+- (2021) V. Perrone, H. Shen, A. Zolic, I. Shcherbatyi, A. Ahmed, T. Bansal, M. Donini, F. Winkelmolen, R. Jenatton, J. B. Faddoul, B. Pogorzelska, M. Miladinovic, K. Kenthapadi, M. Seeger, C. Archambeau. Amazon SageMaker Automatic Model Tuning: Scalable Black-box Optimization. /Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining: 3463-3471/. [https://dl.acm.org/doi/pdf/10.1145/3447548.3467098 \[pdf\]]
 - (2020) L. Tiao, A. Klein, M. Seeger, C. Archambeau, E. Bonilla, F. Ramos. Bayesian Optimization by Density Ratio Estimation. /NeurIPS 2020 Workshop on Meta-learning/. [files/bayesian-optimization-by-density-ratio-estimation.pdf \[pdf\]]
-- (2020) C. Nguyen, T. Hassner, M. Seeger, C. Archambeau. LEEP: A New Measure to Evaluate Transferability of Learned Representations. /International Conference on Machine Learning 37/. [https://arxiv.org/abs/2002.12462 \[arxiv\]]
+- (2020) C. Nguyen, T. Hassner, M. Seeger, C. Archambeau. LEEP: A New Measure to Evaluate Transferability of Learned Representations. /International Conference on Machine Learning 37/. [http://proceedings.mlr.press/v119/nguyen20b/nguyen20b.pdf \[pdf\]]
 - (2019) V. Perrone, H. Shen, M. Seeger, C. Archambeau, R. Jenatton. Learning Search Spaces for Bayesian Optimization: Another View of Hyperparameter Transfer Learning. /Neural Information Processing Systems 32: 12751-12761/. [http://papers.nips.cc/paper/9438-learning-search-spaces-for-bayesian-optimization-another-view-of-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) V. Perrone, R. Jenatton, M. Seeger, C. Archambeau. Scalable Hyperparameter Transfer Learning. /Neural Information Processing Systems 31: 6846-6856/. [http://papers.nips.cc/paper/7917-scalable-hyperparameter-transfer-learning.pdf \[pdf\]]
 - (2018) S. Rangapuram, M. Seeger, J. Gasthaus, L. Stella, Y. Wang, T. Januschowski. Deep State Space Models for Time Series Forecasting. /Neural Information Processing Systems 31: 7796-7805/. [http://papers.nips.cc/paper/8004-deep-state-space-models-for-time-series-forecasting.pdf \[pdf\]], [https://github.com/awslabs/gluon-ts \[code\]]
@@ -59,7 +62,7 @@ My interests center around Bayesian learning and decision making with probabilis
 - (2003) M. Seeger, C. Williams, N. Lawrence. Fast Forward Selection to Speed Up Sparse Gaussian Process Regression. /Artificial Intelligence and Statistics 9/. [https://infoscience.epfl.ch/record/161318/files/aistats03-final.pdf \[pdf\]]
 - (2002) M. Seeger. Covariance Kernels from Bayesian Generative Models. /Neural Information Processing Systems 15: 905-912/. [https://papers.nips.cc/paper/2133-covariance-kernels-from-bayesian-generative-models.pdf \[pdf\]]
 - (2001) C. Williams, M. Seeger. Using the Nystroem Method to Speed Up Kernel Machines. /Neural Information Processing Systems 14: 682-688/. [https://papers.nips.cc/paper/1866-using-the-nystrom-method-to-speed-up-kernel-machines.pdf \[pdf\]]
-- (2001) M. Seeger, J. Langford, N. Megiddo. An Improved Predictive Accuracy Bound for Averaging Classifiers. /International Conference on Machine Learning 18: 290-297 [https://infoscience.epfl.ch/record/161321/files/averaging_icml.pdf \[pdf\]]
+- (2001) M. Seeger, J. Langford, N. Megiddo. An Improved Predictive Accuracy Bound for Averaging Classifiers. /International Conference on Machine Learning 18: 290-297/. [https://infoscience.epfl.ch/record/161321/files/averaging_icml.pdf \[pdf\]]
 - (2000) C. Williams, M. Seeger. The Effect of the Input Density Distribution on Kernel-based Classifiers. /International Conference on Machine Learning 17: 1159-1166/. [https://infoscience.epfl.ch/record/161323?ln=en \[link\]]
 - (2000) M. Seeger. Bayesian Model Selection for Support Vector Machines, Gaussian Processes and Other Kernel Classifiers. /Neural Information Processing Systems 13: 603-609/. [https://papers.nips.cc/paper/1722-bayesian-model-selection-for-support-vector-machines-gaussian-processes-and-other-kernel-classifiers.pdf \[pdf\]]
 
@@ -80,8 +83,9 @@ My interests center around Bayesian learning and decision making with probabilis
 - (2006) M. Seeger. A Taxonomy for Semi-Supervised Learning Methods. In /O. Chapelle, B. Schoelkopf, A. Zien (eds.); Semi-Supervised Learning: 15-32/ [https://infoscience.epfl.ch/record/161326/files/chapter2.pdf \[pdf\]]
 
 *Technical Reports:*
-- (2020) V. Perrone, H. Shen, A. Zolic, I. Shcherbatyi, A. Ahmed, T. Bansal, M. Donini, F. Winkelmolen, R. Jenatton, J. B. Faddoul, B. Pogorzelska, M. Miladinovic, K. Kenthapadi, M. Seeger, C. Archambeau. Amazon SageMaker Automatic Model Tuning: Scalable Black-box Optimization. [https://arxiv.org/abs/2012.08489 \[arxiv\]]
-- (2020) A. Klein, L. Tiao, T. Lienart, C. Archambeau, M. Seeger. Model-based Asynchronous Hyperparameter and Neural Architecture Search. [https://arxiv.org/abs/2003.10865 \[arxiv\]], [https://github.com/awslabs/autogluon \[code\]]
+- (2021) R. Grazzi, V. Flunkert, D. Salinas, T. Januschowski, M. Seeger, C. Archambeau. Meta-Forecasting by combining Global DeepRepresentations with Local Adaptation. [https://arxiv.org/abs/2111.03418 \[arxiv\]]
+- (2021) A. Makarova, H. Shen, V. Perrone, A. Klein, JB. Faddoul, A. Krause, M. Seeger, C. Archambeau. Automatic Termination for Hyperparameter Optimization. [https://arxiv.org/abs/2104.08166 \[arxiv\]]
+- (2020) A. Klein, L. Tiao, T. Lienart, C. Archambeau, M. Seeger. Model-based Asynchronous Hyperparameter and Neural Architecture Search. [https://arxiv.org/abs/2003.10865 \[arxiv\]], [https://github.com/awslabs/syne-tune \[code\]]
 - (2020) E. Lee, V. Perrone, C. Archambeau, M. Seeger. Cost-aware Bayesian Optimization. [https://arxiv.org/abs/2003.10870 \[arxiv\]]
 - (2019) V. Perrone, I. Shcherbatyi, R. Jenatton, C. Archambeau, M. Seeger. Constrained Bayesian Optimization with Max-Value Entropy Search. [https://arxiv.org/abs/1910.07003 \[arxiv\]]
 - (2019) M. Seeger. Information-Theoretic Regret Bounds for Gaussian Process Optimization in the Bandit Setting. Addendum. [files/info_theo_regret_addendum.pdf \[pdf\]]
@@ -99,10 +103,19 @@ My interests center around Bayesian learning and decision making with probabilis
 *PhD Theses:*
 - (2017) Y. J. Ko. Applications of Approximate Learning and Inference for Probabilistic Models. /Ecole Polytechnique Federale, Lausanne (M. Grossglauser, M. Seeger, advisors)/. [https://infoscience.epfl.ch/record/227482?ln=en \[link\]]
 - (2003) M. Seeger. Bayesian Gaussian Process Models: PAC-Bayesian Generalisation Error Bounds and Sparse Approximations. /University of Edinburgh, UK (C. Williams, advisor)/. [https://infoscience.epfl.ch/record/161461?ln=en \[link\]]
+
+*Patents:*
+- (2022) S. Rangapuram, J. Gasthaus, T. Januschowski, M. Seeger, L. Stella. Artificial intelligence system combining state space models and neural networks for time series forecasting. /US Patent 11,281,969/.
+- (2020) M. Seeger, G. Duncan, J. Gasthaus. Intermittent demand forecasting for large inventories. /US Patent 10,748,072/.
 ~~~
 
 ~~~
 {Lecture Notes}
 
 - (2012) Pattern Classification and Machine Learning, taught at EPFL [files/pcml_notes.pdf \[pdf\]]
+~~~
+
+~~~
+{Software}
+Together with colleagues at Amazon (David Salinas, Aaron Klein, Martin Wistuba), I created and maintain [https://github.com/awslabs/syne-tune \[Syne Tune\]], a package for state-of-the-art distributed hyperparameter optimization. Together with Asmus Hetzel and Zhenwen Dai, I introduced linear algebra operators (Cholesky decomposition, LU decomposition, singular value decomposition) into [https://github.com/apache/incubator-mxnet \[MXNet\]].
 ~~~
