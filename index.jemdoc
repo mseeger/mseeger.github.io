@@ -26,8 +26,10 @@ My interests center around Bayesian learning and decision making with probabilis
 {Publications}
 
 *Conference:*
+- (2022) D. Salinas, M. Seeger, A. Klein, V. Perrone, M. Wistuba, C. Archambeau. Syne Tune: A Library for Large Scale Hyperparameter Tuning and Reproducible Research. /AutoML Conference/. [https://openreview.net/forum?id=BVeGJ-THIg9 \[openreview\]]
+- (2022) A. Makarova, H. Shen, V. Perrone, A. Klein, J. B. Faddoul, A. Krause, M. Seeger, C. Archambeau. Automatic Termination for Hyperparameter Optimization. /AutoML Conference/. [https://openreview.net/forum?id=BNeNQWaBIgq \[openreview\]]
 - (2021) E. Lee, D. Eriksson, V. Perrone, M. Seeger. A Nonmyopic Approach to Cost-Constrained Bayesian Optimization. /Uncertainty in Artificial Intelligence: 568-577/. [https://proceedings.mlr.press/v161/lee21a/lee21a.pdf \[pdf\]]
-- (2021) L. Tiao, A. Klein, M. Seeger, E. Bonilla, C. Archambeau, F. Ramos. BORE: Bayesian optimization by density-ratio estimation. /International Conference on Machine Learning: 10289-10300/. [http://proceedings.mlr.press/v139/tiao21a/tiao21a.pdf \[pdf\]]
+- (2021) L. Tiao, A. Klein, M. Seeger, E. Bonilla, C. Archambeau, F. Ramos. BORE: Bayesian Optimization by Density Ratio Estimation. /International Conference on Machine Learning: 10289-10300/. [http://proceedings.mlr.press/v139/tiao21a/tiao21a.pdf \[pdf\]]
 - (2021) V. Perrone, H. Shen, A. Zolic, I. Shcherbatyi, A. Ahmed, T. Bansal, M. Donini, F. Winkelmolen, R. Jenatton, J. B. Faddoul, B. Pogorzelska, M. Miladinovic, K. Kenthapadi, M. Seeger, C. Archambeau. Amazon SageMaker Automatic Model Tuning: Scalable Black-box Optimization. /Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining: 3463-3471/. [https://dl.acm.org/doi/pdf/10.1145/3447548.3467098 \[pdf\]]
 - (2020) L. Tiao, A. Klein, M. Seeger, C. Archambeau, E. Bonilla, F. Ramos. Bayesian Optimization by Density Ratio Estimation. /NeurIPS 2020 Workshop on Meta-learning/. [files/bayesian-optimization-by-density-ratio-estimation.pdf \[pdf\]]
 - (2020) C. Nguyen, T. Hassner, M. Seeger, C. Archambeau. LEEP: A New Measure to Evaluate Transferability of Learned Representations. /International Conference on Machine Learning 37/. [http://proceedings.mlr.press/v119/nguyen20b/nguyen20b.pdf \[pdf\]]
