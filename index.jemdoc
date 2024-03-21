@@ -19,7 +19,9 @@ Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ 
 
 ~~~
 {Research Interests}
-My interests center around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. More recently, I worked on demand forecasting, hyperparameter tuning (Bayesian optimization) applied to deep learning (NLP), and AutoML. 
+For a long while, my interests centered around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. I also worked on demand forecasting, hyperparameter tuning (Bayesian optimization) applied to deep learning (NLP), and AutoML.
+
+More recently, I am getting excited about large language models and related data creation and annotation challenges. I am one of the scientists behind [https://aws.amazon.com/q/aws/ Amazon Q], which transforms the way customers build, optimize, and operate applications and workloads on AWS.
 ~~~
 
 ~~~
