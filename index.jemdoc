@@ -21,9 +21,9 @@ Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ 
 {Research Interests}
 For a long while, my interests centered around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. I also worked on demand forecasting, hyperparameter tuning (Bayesian optimization) applied to deep learning (NLP), and AutoML.
 
-More recently, I am getting excited about large language models and related data creation and annotation challenges. I am one of the scientists behind [https://aws.amazon.com/q/aws/ Amazon Q], which transforms the way customers build, optimize, and operate applications and workloads on AWS.
+More recently, I am getting excited about (large) language models and related data creation and annotation challenges. I am one of the scientists behind [https://aws.amazon.com/q/aws/ Amazon Q], which transforms the way customers build, optimize, and operate applications and workloads on AWS.
 
-In particular, I am investing much time learning about inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology.
+In particular, I am investing much time learning about and improving inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology. Check out [https://github.com/awslabs/keys_values \[KeysAndValues\]], an open source library I released recently.
 ~~~
 
 ~~~
@@ -131,6 +131,7 @@ In particular, I am investing much time learning about inference and fine-tuning
 
 ~~~
 {Software}
+- I recently released [https://github.com/awslabs/keys_values \[KeysAndValues\]], a library for long context inference and fine-tuning of language models. It contains new techniques to fine-tune moderately sized language models with long contexts on little hardware (even a single A100 GPU suffices).
 - Together with colleagues at Amazon (David Salinas, Aaron Klein, Martin Wistuba), I created and maintain [https://github.com/awslabs/syne-tune \[Syne Tune\]], a package for state-of-the-art distributed hyperparameter optimization.
 - Together with Asmus Hetzel and Zhenwen Dai, I introduced linear algebra operators (Cholesky decomposition, LU decomposition, singular value decomposition) into [https://github.com/apache/incubator-mxnet \[MXNet\]].
 ~~~
