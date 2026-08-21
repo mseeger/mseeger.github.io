@@ -13,6 +13,15 @@ Contact: /mseeger/ \[@\] gmail \[DOT\] com, /matthis/ \[@\] amazon \[DOT\] com \
 ~~~
 
 ~~~
+{What's New?}
+After one year of efforts, I am proud to release new work on long context inference and fine-tuning: [https://github.com/awslabs/keys_values \[KeysAndValues\]], an open source library, and [https://arxiv.org/abs/2608.19920 a paper].
+
+Did you ever wonder why sparse attention (KV cache compression or selection) is hardly used in long context inference practice (not in [https://vllm.ai/ vLLM], not in [https://docs.sglang.io/ SGLang]; one exception being DeepSeek DSA), despite convincing results being reported since years? Then this is for you! I show how modern KV cache selection methods like heavy hitter oracle can be run efficiently. More important, I provide a method for fine-tuning an LLM with sparse attention built in. This works for any KV cache logic you like, and it runs on a single NVidia A100 with 40 GB of memory.
+
+[https://github.com/awslabs/keys_values \[KeysAndValues\]] provides a clean abstraction of multi-head attention and key-value cache, plus lots of fundamentals built in (cache compression, cache buffering, CPU offloading, activation checkpointing, scaled dot product attention). Built on top of [https://github.com/lightning-ai/litgpt LitGPT], you can use almost every Hugging Face checkpoint.
+~~~
+
+~~~
 {Short Bio}
 Matthias W. Seeger received a Ph.D. from the [https://www.ed.ac.uk/informatics/ School of Informatics], Edinburgh university, UK, in 2003 (advisor [https://homepages.inf.ed.ac.uk/ckiw/ Christopher Williams]). He was a research fellow with [https://people.eecs.berkeley.edu/~jordan/ Michael Jordan] and [https://www.stat.berkeley.edu/~bartlett/ Peter Bartlett], University of California at Berkeley, from 2003, and with [https://www.is.mpg.de/person/bs Bernhard Schoelkopf], Max Planck Institute for Intelligent Systems, Tuebingen, Germany, from 2005. He led a research group at the University of Saarbruecken, Germany, from 2008, and was assistant professor at the [https://www.epfl.ch/schools/ic/ Ecole Polytechnique Federale de Lausanne] from fall 2010. He joined Amazon as machine learning scientist in 2014. He received the [https://www.amazon.science/blog/icml-test-of-time-paper-shows-how-times-have-changed ICML Test of Time Award] in 2020.
 ~~~
@@ -23,7 +32,7 @@ For a long while, my interests centered around Bayesian learning and decision ma
 
 More recently, I am getting excited about (large) language models and related data creation and annotation challenges. I am one of the scientists behind [https://aws.amazon.com/q/aws/ Amazon Q], which transforms the way customers build, optimize, and operate applications and workloads on AWS.
 
-In particular, I am investing much time learning about and improving inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology. Check out [https://github.com/awslabs/keys_values \[KeysAndValues\]], an open source library I released recently.
+In particular, I am investing much time learning about and improving inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology. Check out [https://github.com/awslabs/keys_values \[KeysAndValues\]], an open source library I released recently, and [https://arxiv.org/abs/2608.19920 this paper].
 ~~~
 
 ~~~
@@ -100,6 +109,7 @@ In particular, I am investing much time learning about and improving inference a
 - (2006) M. Seeger. A Taxonomy for Semi-Supervised Learning Methods. In /O. Chapelle, B. Schoelkopf, A. Zien (eds.); Semi-Supervised Learning: 15-32/ [https://infoscience.epfl.ch/record/161326/files/chapter2.pdf \[pdf\]]
 
 *Technical Reports:*
+- (2026) M. Seeger, Z. Zhang, V. Patil, K. Benidis, S. Schelter. Learning how to Forget: Fine-tuning for Long-Context Sparse Attention. [https://arxiv.org/abs/2608.19920 \[arxiv\]]
 - (2021) R. Grazzi, V. Flunkert, D. Salinas, T. Januschowski, M. Seeger, C. Archambeau. Meta-Forecasting by combining Global DeepRepresentations with Local Adaptation. [https://arxiv.org/abs/2111.03418 \[arxiv\]]
 - (2021) A. Makarova, H. Shen, V. Perrone, A. Klein, JB. Faddoul, A. Krause, M. Seeger, C. Archambeau. Automatic Termination for Hyperparameter Optimization. [https://arxiv.org/abs/2104.08166 \[arxiv\]]
 - (2020) A. Klein, L. Tiao, T. Lienart, C. Archambeau, M. Seeger. Model-based Asynchronous Hyperparameter and Neural Architecture Search. [https://arxiv.org/abs/2003.10865 \[arxiv\]], [https://github.com/awslabs/syne-tune \[code\]]

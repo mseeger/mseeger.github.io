@@ -24,6 +24,13 @@ Contact: <i>mseeger</i> [@] gmail [DOT] com, <i>matthis</i> [@] amazon [DOT] com
 <a href="https://github.com/mseeger">[GitHub]</a></p>
 </td></tr></table>
 <div class="infoblock">
+<div class="blocktitle">What's New?</div>
+<div class="blockcontent">
+<p>After one year of efforts, I am proud to release new work on long context inference and fine-tuning: <a href="https://github.com/awslabs/keys_values">[KeysAndValues]</a>, an open source library, and <a href="https://arxiv.org/abs/2608.19920">a paper</a>.</p>
+<p>Did you ever wonder why sparse attention (KV cache compression or selection) is hardly used in long context inference practice (not in <a href="https://vllm.ai/">vLLM</a>, not in <a href="https://docs.sglang.io/">SGLang</a>; one exception being DeepSeek DSA), despite convincing results being reported since years? Then this is for you! I show how modern KV cache selection methods like heavy hitter oracle can be run efficiently. More important, I provide a method for fine-tuning an LLM with sparse attention built in. This works for any KV cache logic you like, and it runs on a single NVidia A100 with 40 GB of memory.</p>
+<p><a href="https://github.com/awslabs/keys_values">[KeysAndValues]</a> provides a clean abstraction of multi-head attention and key-value cache, plus lots of fundamentals built in (cache compression, cache buffering, CPU offloading, activation checkpointing, scaled dot product attention). Built on top of <a href="https://github.com/lightning-ai/litgpt">LitGPT</a>, you can use almost every Hugging Face checkpoint.</p>
+</div></div>
+<div class="infoblock">
 <div class="blocktitle">Short Bio</div>
 <div class="blockcontent">
 <p>Matthias W. Seeger received a Ph.D. from the <a href="https://www.ed.ac.uk/informatics/">School of Informatics</a>, Edinburgh university, UK, in 2003 (advisor <a href="https://homepages.inf.ed.ac.uk/ckiw/">Christopher Williams</a>). He was a research fellow with <a href="https://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a> and <a href="https://www.stat.berkeley.edu/~bartlett/">Peter Bartlett</a>, University of California at Berkeley, from 2003, and with <a href="https://www.is.mpg.de/person/bs">Bernhard Schoelkopf</a>, Max Planck Institute for Intelligent Systems, Tuebingen, Germany, from 2005. He led a research group at the University of Saarbruecken, Germany, from 2008, and was assistant professor at the <a href="https://www.epfl.ch/schools/ic/">Ecole Polytechnique Federale de Lausanne</a> from fall 2010. He joined Amazon as machine learning scientist in 2014. He received the <a href="https://www.amazon.science/blog/icml-test-of-time-paper-shows-how-times-have-changed">ICML Test of Time Award</a> in 2020.</p>
@@ -33,7 +40,7 @@ Contact: <i>mseeger</i> [@] gmail [DOT] com, <i>matthis</i> [@] amazon [DOT] com
 <div class="blockcontent">
 <p>For a long while, my interests centered around Bayesian learning and decision making with probabilistic models, from gaining understanding to making it work in large scale practice. I have been working on theory and practice of Gaussian processes and Bayesian optimization, scalable variational approximate inference algorithms, Bayesian compressed sensing, and active learning for medical imaging. I also worked on demand forecasting, hyperparameter tuning (Bayesian optimization) applied to deep learning (NLP), and AutoML.</p>
 <p>More recently, I am getting excited about (large) language models and related data creation and annotation challenges. I am one of the scientists behind <a href="https://aws.amazon.com/q/aws/">Amazon Q</a>, which transforms the way customers build, optimize, and operate applications and workloads on AWS.</p>
-<p>In particular, I am investing much time learning about and improving inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology. Check out <a href="https://github.com/awslabs/keys_values">[KeysAndValues]</a>, an open source library I released recently.</p>
+<p>In particular, I am investing much time learning about and improving inference and fine-tuning with long contexts, in an attempt to lower costs of LLM post-training and creating a wider access funnel to this amazing technology. Check out <a href="https://github.com/awslabs/keys_values">[KeysAndValues]</a>, an open source library I released recently, and <a href="https://arxiv.org/abs/2608.19920">this paper</a>.</p>
 </div></div>
 <div class="infoblock">
 <div class="blocktitle">Talks</div>
@@ -171,6 +178,8 @@ Contact: <i>mseeger</i> [@] gmail [DOT] com, <i>matthis</i> [@] amazon [DOT] com
 </ul>
 <p><b>Technical Reports:</b></p>
 <ul>
+<li><p>(2026) M. Seeger, Z. Zhang, V. Patil, K. Benidis, S. Schelter. Learning how to Forget: Fine-tuning for Long-Context Sparse Attention. <a href="https://arxiv.org/abs/2608.19920">[arxiv]</a></p>
+</li>
 <li><p>(2021) R. Grazzi, V. Flunkert, D. Salinas, T. Januschowski, M. Seeger, C. Archambeau. Meta-Forecasting by combining Global DeepRepresentations with Local Adaptation. <a href="https://arxiv.org/abs/2111.03418">[arxiv]</a></p>
 </li>
 <li><p>(2021) A. Makarova, H. Shen, V. Perrone, A. Klein, JB. Faddoul, A. Krause, M. Seeger, C. Archambeau. Automatic Termination for Hyperparameter Optimization. <a href="https://arxiv.org/abs/2104.08166">[arxiv]</a></p>
@@ -241,7 +250,7 @@ Contact: <i>mseeger</i> [@] gmail [DOT] com, <i>matthis</i> [@] amazon [DOT] com
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-05-08 18:08:17 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2026-08-21 12:21:27 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </div>
